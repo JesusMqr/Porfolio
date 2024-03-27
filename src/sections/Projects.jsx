@@ -2,6 +2,7 @@ import { ProjectItem } from "../components/ProjectItem";
 import webStore from '../assets/webStore.png';
 
 
+
 const ProjectsData = [
     {
         status:"En desarrollo",
@@ -55,7 +56,13 @@ const ProjectsData = [
     }
 ];
 
+
+
+
 export const Projects =()=>{
+    
+
+
     return(
         <>
         

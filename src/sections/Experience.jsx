@@ -1,4 +1,4 @@
-import { TimeItem } from "../components/TimeLine"
+import { TimeItem } from "../components/TimeItem"
 
 const experienceData = [
     {

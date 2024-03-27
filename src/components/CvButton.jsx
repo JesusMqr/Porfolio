@@ -1,8 +1,13 @@
+import { motion } from "framer-motion";
+
 const cvUrl = "https://drive.google.com/file/d/1rEK1GF7-JykVeuOqfNwbKErI_e6S97-M/view?usp=sharing";
 
 export const CvButton = () => {
     return (
-        <a href={cvUrl}
+        <motion.a 
+        whileHover={{ scale: 1.1 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
+        href={cvUrl}
             className="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-cyan-500 to-blue-500 group-hover:from-cyan-500 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-cyan-200 dark:focus:ring-cyan-800">
             <span className=" px-3 py-2 font-medium text-center inline-flex items-center
             relative  transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
@@ -12,7 +17,7 @@ export const CvButton = () => {
               </svg>
             Ver CV
             </span>
-        </a>
+        </motion.a>
 
         
     )
