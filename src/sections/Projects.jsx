@@ -41,13 +41,15 @@ const ProjectsData = [
     },
     {
         status:"En desarrollo",
-        title:"JMusicApi",
-        description:"Api Rest que ofrece recursos de musica gratuita para el uso libre",
-        
-        
+        title:"ScanApp",
+        description:"Aplicacion web para galeria de imagenes, mangas, historietas o comics",
+        urlGithub:"https://github.com/JesusMqr/ScanApp",
         tag:[
             {
                 text:"laravel"
+            },
+            {
+                text:"tailwind"
             },
         ]
     }
