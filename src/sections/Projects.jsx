@@ -10,7 +10,7 @@ const ProjectsData = [
         urlImage:webStore,
         description:"Pagina web creada con react, esta pagina tiene como objetivo ser una galeria de paginas web",
         urlGithub:"https://github.com/JesusMqr/WebStore",
-        
+        urlDeploy:"https://web-store-gules-alpha.vercel.app/",
         tag:[
             {
                 text:"react"
@@ -29,7 +29,7 @@ const ProjectsData = [
         description:"Aplicacion web para la reproduccion de musica de licencia gratuita",
         urlImage:logoApi,
         urlGithub:"https://github.com/JesusMqr/LaravelApi",
-        urlDeploy:"https://web-store-gules-alpha.vercel.app/",
+        
         tag:[
             {
                 text:"react"
