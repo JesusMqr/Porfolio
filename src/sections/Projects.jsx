@@ -9,7 +9,7 @@ const ProjectsData = [
         title:"WebStore",
         urlImage:webStore,
         description:"Pagina web creada con react, esta pagina tiene como objetivo ser una galeria de paginas web",
-        urlGithub:"https://github.com/JesusMqr/LaravelApi",
+        urlGithub:"https://github.com/JesusMqr/WebStore",
         
         tag:[
             {
@@ -28,6 +28,7 @@ const ProjectsData = [
         title:"AuthApi",
         description:"Aplicacion web para la reproduccion de musica de licencia gratuita",
         urlImage:logoApi,
+        urlGithub:"https://github.com/JesusMqr/LaravelApi",
         tag:[
             {
                 text:"react"
