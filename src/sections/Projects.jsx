@@ -26,20 +26,15 @@ const ProjectsData = [
     {
         status:"En desarrollo",
         title:"AuthApi",
-        description:"Aplicacion web para la reproduccion de musica de licencia gratuita",
+        description:"Api Rest hecha con Laravel 11, posee peticiones auth, relaciones entre tablas y equipos",
         urlImage:logoApi,
         urlGithub:"https://github.com/JesusMqr/LaravelApi",
         
         tag:[
             {
-                text:"react"
-            },
-            {
-                text:"vite"
-            },
-            {
-                text:"tailwind"
+                text:"Laravel"
             }
+
         ]
     },
     {
