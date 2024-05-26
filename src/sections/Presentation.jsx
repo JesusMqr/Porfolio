@@ -38,18 +38,18 @@ export const Presentation=()=>{
             variants={{ visible: { transition: { staggerChildren: 0.3 } } }}
             >
                 <motion.h1
-                className="text-6xl"
+                className="text-2xl md:text-4xl lg:text-6xl"
                 variants={{
                 hidden: { opacity: 0, y: -20 },
                 visible
                 }}
                 >
-                Hola, mi nombre es <span className="text-violet-700 font-bold" 
+                Hola, mi nombre es <span className="text-violet-700 text-md font-bold" 
                         >Jesus Maquera</span> y soy Desarrollador de Software
                 </motion.h1>
                 
                 <motion.p 
-                className="my-10 text-xl" 
+                className="my-10 text-sm md:text-lg lg:text-xl" 
                 variants={{
                     hidden: { opacity: 0, y: -20 },
                     visible}}
@@ -57,7 +57,7 @@ export const Presentation=()=>{
                 Tecnico en Ingenieria de Software residente en Perú. Me especializo en el Desarrollo Web Full-Stack, siempre buscando la oportunidad de aprender y aplicar mis conocimientos adquiridos
                 </motion.p>
 
-                <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
+                <hr className="h-px my-8 bg-gray-200 border-0 md:border dark:bg-gray-700"></hr>
                 <div
                 
                 >

@@ -20,8 +20,8 @@ const experienceData = [
 export const Experience =()=>{
     return (
         <div id="experience" className="  h-full w-full bg-slate-900">
-            <div className="mx-auto max-w-screen-sm px-5 md:px-0 md:max-w-screen-lg py-20 text-white">
-            <h2 className="text-3xl mb-10 font-semibold" >EXPERIENCIA</h2>
+            <div className="mx-auto max-w-screen-sm px-5 md:px-10 md:max-w-screen-lg py-20 text-white">
+            <h2 className="text-2xl  md:text-3xl mb-10 font-semibold" >EXPERIENCIA</h2>
         
             <ol className="relative border-s border-gray-200 dark:border-gray-700">
 
@@ -34,9 +34,6 @@ export const Experience =()=>{
                     description={description}
                  />   
                 ))}
-
-                
-                
             </ol>
 
             </div>
