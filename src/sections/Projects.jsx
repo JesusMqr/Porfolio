@@ -1,14 +1,14 @@
 import { ProjectItem } from "../components/ProjectItem";
 import webStore from '../assets/webStore.png';
 import logoApi from '../assets/LogoApi.jpeg';
-
+import laraInventory from '../assets/LaraInventoryApp.jpeg';
 
 const ProjectsData = [
     {
         status:"En pausa",
         title:"WebStore",
         urlImage:webStore,
-        description:"Pagina web creada con react, esta pagina tiene como objetivo ser una galeria de paginas web",
+        description:"Pagina web creada con react, esta pagina tiene como objetivo ser una galeria de paginas web.",
         urlGithub:"https://github.com/JesusMqr/WebStore",
         urlDeploy:"https://web-store-gules-alpha.vercel.app/",
         tag:[
@@ -26,7 +26,7 @@ const ProjectsData = [
     {
         status:"En desarrollo",
         title:"AuthApi",
-        description:"Api Rest hecha con Laravel 11, posee peticiones auth, relaciones entre tablas y equipos",
+        description:"Api Rest hecha con Laravel 11, posee peticiones auth, relaciones entre tablas y equipos.",
         urlImage:logoApi,
         urlGithub:"https://github.com/JesusMqr/LaravelApi",
         
@@ -38,10 +38,11 @@ const ProjectsData = [
         ]
     },
     {
-        status:"En pausa",
-        title:"ScanApp",
-        description:"Aplicacion web para galeria de imagenes, mangas, historietas o comics",
-        urlGithub:"https://github.com/JesusMqr/ScanApp",
+        status:"Culminado",
+        title:"LaraInventory",
+        description:"Aplicacion web para la gestion de inventarios, manejo de categorias, seguimiento de stock de productos, usuarios y roles.",
+        urlImage:laraInventory,
+        urlGithub:"https://github.com/JesusMqr/LaraInventory-app",
         tag:[
             {
                 text:"laravel"
