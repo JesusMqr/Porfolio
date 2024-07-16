@@ -5,7 +5,7 @@ import laraInventory from '../assets/LaraInventoryApp.jpeg';
 
 const ProjectsData = [
     {
-        status:"En pausa",
+        status:"Culminado",
         title:"WebStore",
         urlImage:webStore,
         description:"Pagina web creada con react, esta pagina tiene como objetivo ser una galeria de paginas web.",
